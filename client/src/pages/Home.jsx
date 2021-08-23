@@ -16,16 +16,16 @@ export default function Home() {
       <div className="mb-4 py-1 px-4">
       <Swiper
         autoplay={{
-          delay: 6000,
+          delay: 3500,
         }}
       >
         <SwiperSlide>
-          <div className="">
+          <div>
           <div className="bg-cover bg-center h-auto text-white  py-10 px-3 md:py-24 md:px-10 object-fill image1">
             <div className="flex flex-col w-1/2 items-center text-center">
-              <h2 className="text-customText font-extrabold text-md mb-2 md:mb-6 md:text-4xl">
+              <h1 className="text-customText font-extrabold text-md mb-2 md:mb-6 md:text-4xl">
                 Elite Parke ile konfor evinizde!
-              </h2>
+              </h1>
               <a
                 href="/iletisim"
                 className=" border border-black text-customText font-medium text-xs lg:font-semibold lg:text-lg md:py-2 md:px-4 py-1 px-2 rounded hover:bg-primary hover:text-white"
@@ -37,12 +37,12 @@ export default function Home() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className=" ">
+        <div>
           <div className="bg-cover bg-center  h-auto text-white  py-10 px-3 md:py-24 md:px-10 object-fill image2">
             <div className="flex flex-col w-1/2 items-center text-center">
-              <h2 className="text-customText font-extrabold text-md mb-2 md:mb-6 md:text-4xl">
+              <h1 className="text-customText font-extrabold text-md mb-2 md:mb-6 md:text-4xl">
                 Elite Parke ile kalite evinizde!
-              </h2>
+              </h1>
               <a
                 href="/iletisim"
                 className=" border border-black text-customText font-medium text-xs lg:font-semibold lg:text-lg md:py-2 md:px-4 py-1 px-2 rounded hover:bg-primary hover:text-white"
@@ -57,9 +57,9 @@ export default function Home() {
         <div className=" ">
           <div className="bg-cover bg-center  h-auto text-white  py-10 px-3 md:py-24 md:px-10 object-fill image3">
             <div className="flex flex-col w-1/2 items-center text-center">
-              <h2 className="text-customText font-extrabold text-md mb-2 md:mb-6 md:text-4xl">
-                Elite Parke ile kalite otelinizde!
-              </h2>
+              <h1 className="text-customText font-extrabold text-md mb-2 md:mb-6 md:text-4xl">
+                Elite Parke ile stil evinizde!
+              </h1>
               <a
                 href="/iletisim"
                 className=" border border-black text-customText font-medium text-xs lg:font-semibold lg:text-lg md:py-2 md:px-4 py-1 px-2 rounded hover:bg-primary hover:text-white"
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="absoluteCenter text-white text-center hidden card-text">
             <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
               “ Laminant parkeler ile yaşam alanınızı canlı bir görünüme
-              kavuşturun ”
+              kavuşturun.”<br/>-Elite Parke 
             </h3>
             <a
               className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
@@ -106,7 +106,7 @@ export default function Home() {
           <img src={homeDoors} alt="doors" className="home-image" />
           <div className="absoluteCenter text-white text-center hidden card-text">
             <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
-              “ Evinizi çelik kapılar ardında güvende tutun ”
+              “ Evinizi çelik kapılar ardında güvende tutun.”<br/>-Elite Parke 
             </h3>
             <a
               className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
@@ -124,7 +124,7 @@ export default function Home() {
           <div className="absoluteCenter text-white text-center hidden card-text">
             <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
               “ Süpürgelik ile parke kenarındaki kötü görüntüleri ortadan
-              kaldırın ”
+              kaldırın.” <br/>-Elite Parke 
             </h3>
             <a
               className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
@@ -142,7 +142,7 @@ export default function Home() {
           <div className="absoluteCenter text-white text-center hidden card-text">
             <h3 className="text-sm md:text-xl mb-4 font-light italic tracking-wide">
               “ Uzun ömürlü ve dayanıklı Lamine parkeler sayesinde konforlu bir
-              ortam sağlayın ”
+              ortam sağlayın.” <br/>-Elite Parke 
             </h3>
             <a
               className="border border-gray-700 bg-gray-700 py-1.5 px-3 md:py-2 md:px-4 rounded text-sm md:text-lg"
